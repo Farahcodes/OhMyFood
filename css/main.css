@@ -1,1 +1,31 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Variables */
+:root {
+  --color-primary: #9356dc;
+  --color-secondary: #ff79da;
+  --color-tertiary: #99e2d0;
+  --headings-font-family: "Shrikhand", arial, sans-serif;
+  --text-font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+.container {
+  width: 100%;
+  padding: 0 10% 0 10%;
+  text-align: center;
+}
+.logo img {
+  padding: 7.5px 10px 7.5px 0;
+}
