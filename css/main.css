@@ -33,6 +33,9 @@ p {
 .container {
   width: 100%;
   padding: 0 10% 0 10%;
+}
+.logo {
+  display: block;
   text-align: center;
 }
 .logo img {
@@ -68,6 +71,7 @@ p {
   justify-content: space-between;
   gap: 30px;
   margin-bottom: 20px;
+  text-align: center;
 }
 .slogan h1 {
   font-family: var(--text-font-family);
@@ -91,7 +95,6 @@ p {
 .functionality-title {
   font-family: var(--text-font-family);
   margin-bottom: 15px;
-  margin-inline-end: 75%;
   white-space: nowrap;
 }
 .functionalities {
