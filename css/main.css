@@ -91,7 +91,6 @@ p {
 .functionality-title {
   font-family: var(--text-font-family);
   margin-bottom: 15px;
-  margin-inline-end: 70%;
 }
 .functionalities {
   display: flex;
