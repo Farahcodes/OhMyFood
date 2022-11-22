@@ -91,10 +91,15 @@ p {
 .functionality-title {
   font-family: var(--text-font-family);
   margin-bottom: 15px;
+  margin-inline-end: 75%;
+  white-space: nowrap;
 }
 .functionalities {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 15px;
+}
+.functionalities li {
+  list-style: none;
 }
