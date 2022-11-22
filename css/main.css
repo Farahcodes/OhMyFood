@@ -26,7 +26,7 @@ p {
   --color-black: #000;
   --color-white: #fff;
   --headings-font-family: "Shrikhand", arial, sans-serif;
-  --text-font-family: "Roboto", sans-serif;
+  --text-font-family: "Roboto", arial, sans-serif;
 }
 
 /* Header */
@@ -67,6 +67,7 @@ p {
   flex-direction: column;
   justify-content: space-between;
   gap: 30px;
+  margin-bottom: 20px;
 }
 .slogan h1 {
   font-family: var(--text-font-family);
@@ -84,4 +85,17 @@ p {
 }
 .button-gradient-homepage {
   margin: 0 auto 10px;
+}
+
+/* Functionalities section */
+.functionality-title {
+  font-family: var(--text-font-family);
+  margin-bottom: 15px;
+  margin-inline-end: 70%;
+}
+.functionalities {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
 }
