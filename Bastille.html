@@ -28,97 +28,221 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="container">
+    <header class="header header--withBackArrow">
       <!-- Header arrow -->
-      <a class="header-arrow" href="index.html"
-        ><i class="fa-solid fa-arrow-left"></i
+      <a href="index.html"
+        ><i class="fa-solid fa-arrow-left header__arrow"></i
       ></a>
       <!-- End of Header arrow -->
       <!-- Logo -->
-      <a href="index.html" class="logo">
+      <a href="index.html" class="header__logo">
         <img src="images/logo/ohmyfood@2x.svg" alt="logo" />
       </a>
       <!-- End of logo -->
       <!-- Hero section -->
-      <div class="hero">
-        <img
-          class="hero-img"
-          src="./images//restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
-          alt="restaurant picture"
-        />
-        <div class="hero-title">
-          <h1>Bastille</h1>
-          <div>
-            <i class="far fa-heart fa-2x"></i>
-            <i class="fas fa-heart fa-2x"></i>
-          </div>
-        </div>
-      </div>
+      <img
+        class="hero__img"
+        src="./images//restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+        alt="restaurant picture"
+      />
       <!-- End of Hero section -->
     </header>
     <!-- End of Header -->
-    <main class="container">
-      <!-- Starters -->
-      <section class="card">
-        <div>
-          <h2 class="card-title card-title1">ENTREES</h2>
-          <!-- Single Menu -->
-          <div class="card-menu card-menu1">
-            <div class="card-menu-info">
-              <h3 class="card-menu-info-title">Citrus Squid Carpaccio</h3>
-              <div class="card-menu-info-description-price">
-                <p class="card-menu-info-description">With orange zest</p>
-                <span class="card-menu-info-price">25€</span>
+
+    <main class="menu container">
+      <!-- Menu header -->
+      <div class="menu__header">
+        <h1 class="menu__title">Bastille</h1>
+        <button class="menu__btn">
+          <i class="menu__like menu__like--noBg far fa-heart fa-2x"></i>
+          <i class="menu__like menu__like--bg fas fa-heart fa-2x"></i>
+        </button>
+      </div>
+      <!-- End of Menu header -->
+
+      <!-- Submenus section -->
+      <section class="submenus">
+        <!-- Starters -->
+        <div class="submenu">
+          <h2 class="submenu__title">ENTREES</h2>
+          <!-- Single starter -->
+          <article class="menuItem delay-0">
+            <div class="menuItem__header">
+              <h3 class="menuItem__title">Citrus Squid Carpaccio</h3>
+              <p class="menuItem__description">With orange zest</p>
+            </div>
+            <div class="menuItem__price">25€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
               </div>
             </div>
-            <div class="card-menu-valid">
-              <i class="fa-solid fa-circle-check"></i>
+          </article>
+          <!-- End of single starter -->
+          <!-- Single starter -->
+          <article class="menuItem delay-1">
+            <div class="menuItem__header">
+              <h3 class="menuItem__title">Grandmother's Vegetable Soup</h3>
+              <p class="menuItem__description">
+                Carrots, parsnips, Jerusalem artichoke
+              </p>
             </div>
-          </div>
-          <!-- End of single menu -->
+            <div class="menuItem__price">35€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <!-- End of single starter -->
+          <!-- Single starter -->
+          <article class="menuItem delay-2">
+            <div class="menuItem__header">
+              <h3 class="menuItem__title">Onion Soup</h3>
+              <p class="menuItem__description">Revisited</p>
+            </div>
+            <div class="menuItem__price">20€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <!-- End of single starter -->
         </div>
+        <!-- End of starters -->
+
+        <!-- Main Dish -->
+        <div class="submenu">
+          <h2 class="submenu__title">MAIN DISH</h2>
+          <!-- Single main dish -->
+          <article class="menuItem delay-3">
+            <div class="menuItem__header">
+              <h3 class="menuItem__title">Scallops</h3>
+              <p class="menuItem__description">With mashed parsnip</p>
+            </div>
+            <div class="menuItem__price">40€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <!-- End of single main dish -->
+          <!-- Single main dish -->
+          <article class="menuItem delay-4">
+            <div class="menuItem__header">
+              <h3 class="menuItem__title">Magret de canard</h3>
+              <p class="menuItem__description">With mashed potatoes</p>
+            </div>
+            <div class="menuItem__price">35€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <!-- End of single main dish -->
+          <!-- Single main dish -->
+          <article class="menuItem delay-5">
+            <div class="menuItem__header">
+              <h3 class="menuItem__title">Game Hen</h3>
+              <p class="menuItem__description">With vegetable gnocchis</p>
+            </div>
+            <div class="menuItem__price">44€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <!-- End of single main dish -->
+        </div>
+        <!-- End of Main Dish -->
+        <!-- Desserts -->
+        <div class="submenu">
+          <h2 class="submenu__title">DESSERTS</h2>
+          <!-- Single dessert -->
+          <article class="menuItem delay-6">
+            <div class="menuItem__header">
+              <h3 class="menuItem__title">Floral Ice Cream</h3>
+              <p class="menuItem__description">With hazelnut butter</p>
+            </div>
+            <div class="menuItem__price">18€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <!-- End of single dessert -->
+          <!-- Single dessert -->
+          <article class="menuItem delay-7">
+            <div class="menuItem__header">
+              <h3 class="menuItem__title">Chocolate Lava Cake</h3>
+              <p class="menuItem__description">Revisited</p>
+            </div>
+            <div class="menuItem__price">22€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <!-- End of single dessert -->
+          <!-- Single dessert -->
+          <article class="menuItem delay-8">
+            <div class="menuItem__header">
+              <h3 class="menuItem__title">Napolean</h3>
+              <p class="menuItem__description">With blueberries and marzipan</p>
+            </div>
+            <div class="menuItem__price">23€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
+              </div>
+            </div>
+          </article>
+          <!-- End of single dessert -->
+        </div>
+        <!-- End of Desserts -->
       </section>
-      <!-- End of starters -->
-      <!-- Main Dish -->
 
-      <!-- End of Main Dish -->
-      <!-- Desserts -->
-
-      <!-- End of Desserts -->
-      <button class="button-gradient button-gradient-card">Order</button>
+      <div class="wrapBtn">
+        <button class="commandBtn">Order</button>
+      </div>
     </main>
-
     <!-- Footer -->
     <footer>
-      <div>
-        <h4 class="footer-title"><a href="index.html">Ohmyfood</a></h4>
-        <ul>
+      <div class="container">
+        <h4 class="footer__title"><a href="index.html">Ohmyfood</a></h4>
+        <ul class="footer__list">
           <!-- Single footer link -->
-          <li>
-            <a href="#">
-              <i class="fa-solid fa-utensils"></i>
+          <li class="footer__listElt">
+            <a href="#" class="footer__link">
+              <i class="footer__icon fa-solid fa-utensils"></i>
               <span>Suggest a restaurant</span>
             </a>
           </li>
           <!-- End of single footer link -->
           <!-- Single footer link -->
-          <li>
-            <a href="#">
-              <i class="fa-solid fa-handshake"></i>
+          <li class="footer__listElt">
+            <a href="#" class="footer__link">
+              <i class="footer__icon fa-solid fa-handshake"></i>
               <span>Become a partner</span>
             </a>
           </li>
           <!-- End of single footer link -->
           <!-- Single footer link -->
-          <li>
-            <a href="#">
+          <li class="footer__listElt">
+            <a href="#" class="footer__link">
               <span>Legal</span>
             </a>
           </li>
           <!-- End of single footer link -->
           <!-- Single footer link -->
-          <li>
-            <a href="#">
+          <li class="footer__listElt">
+            <a href="#" class="footer__link">
               <span> <a href="mailto:contact@ohmyfood.fr"></a>Contact</span>
             </a>
           </li>
@@ -126,7 +250,6 @@
         </ul>
       </div>
     </footer>
-
     <!-- End of Footer -->
   </body>
 </html>
