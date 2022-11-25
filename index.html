@@ -28,148 +28,167 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="container">
+    <header class="header">
       <!-- Logo -->
-      <a href="index.html" class="logo">
+      <a href="index.html" class="header__logo">
         <img src="images/logo/ohmyfood@2x.svg" alt="logo" />
       </a>
       <!-- End of logo -->
       <!-- location -->
       <div class="location">
         <form>
-          <i class="fa-solid fa-location-dot"></i>
-          <input type="text" placeholder="Paris, Belleville" />
+          <i class="fa-solid fa-location-dot location__icon"></i>
+          <input
+            type="text"
+            placeholder="Paris, Belleville"
+            class="location__text"
+          />
         </form>
       </div>
       <!-- end of location -->
     </header>
     <!-- End of Header -->
-    <main class="container">
-      <!-- Slogan -->
-      <div class="slogan">
-        <h1>Book the menu you like</h1>
-        <p>Discover top-of-the-art restaurants we picked for you</p>
+    <main>
+      <!-- hero -->
+      <div class="hero">
+        <h1 class="hero__title">Book the menu you like</h1>
+        <p class="hero__subtitle">
+          Discover top-of-the-art restaurants we picked for you
+        </p>
         <a href="#restaurants">
-          <button class="button-gradient button-gradient-homepage">
-            Explore our restaurants
-          </button>
+          <button class="hero__btn">Explore our restaurants</button>
         </a>
       </div>
-      <!-- End of Slogan -->
+      <!-- End of hero -->
       <!-- Functionalities section -->
-      <section class="functionalities-section">
-        <h2 class="functionality-title">How it works</h2>
-        <ul class="functionalities">
+      <section class="functionalities">
+        <h2 class="functionalities__title">How it works</h2>
+        <ol class="functionalities__steps">
           <!-- Single functionalitty -->
-          <li class="functionality-button">
-            <span class="number">1</span>
-            <i class="fa-solid fa-mobile-screen-button"></i>
-            <span class="functionality">Choose a restaurant</span>
+          <li class="functionalities__step">
+            <i
+              class="functionalities__icon fa-solid fa-mobile-screen-button"
+            ></i>
+            <span class="functionalities__text">Choose a restaurant</span>
           </li>
           <!-- End of Single functionalitty -->
-          <li class="functionality-button">
-            <span class="number">2</span>
-            <i class="fa-solid fa-list"></i>
-            <span class="functionality">Create your menu</span>
+          <li class="functionalities__step">
+            <i class="functionalities__icon fa-solid fa-list"></i>
+            <span class="functionalities__text">Create your menu</span>
           </li>
           <!-- Single functionalitty -->
-          <li class="functionality-button">
-            <span class="number">3</span>
-            <i class="fa-solid fa-store"></i>
-            <span class="functionality">Go enjoy it at the restaurant</span>
+          <li class="functionalities__step">
+            <i class="functionalities__icon fa-solid fa-store"></i>
+            <span class="functionalities__text"
+              >Go enjoy it at the restaurant</span
+            >
           </li>
           <!-- End of Single functionalitty -->
-        </ul>
+        </ol>
       </section>
       <!-- End of Functionalities section -->
       <!-- Restaurants section -->
       <section class="restaurants" id="restaurants">
-        <h2 class="restaurants-title">Restaurants</h2>
-        <div class="restaurants-list">
-          <!-- Single restaurant card -->
-          <a href="The-Full-Palette.html">
-            <div class="restaurant-card restaurant-new">
+        <div class="container">
+          <h2 class="restaurants__title">Restaurants</h2>
+          <div class="cards">
+            <!-- Single restaurant card -->
+            <a href="The-Full-Palette.html" class="card">
               <img
-                class="restaurant-card-img"
+                class="card__img"
                 src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
                 alt="The-Full-Palette"
               />
-              <span>New</span>
-              <div class="restaurant-card-info">
-                <h3 class="restaurant-card-title">The Full Palette</h3>
-                <p class="restaurant-card-text">New York</p>
-                <div>
-                  <i class="far fa-heart fa-2x"></i>
-                  <i class="fas fa-heart fa-2x"></i>
+              <span class="card__badge">New</span>
+              <div class="card__footer">
+                <div class="card__content">
+                  <h3 class="card__title">The Full Palette</h3>
+                  <p class="card__subtitle">New York</p>
+                </div>
+                <div class="menu__btn card__btn">
+                  <i
+                    class="card__like menu__like menu__like--noBg far fa-heart fa-2x"
+                  ></i>
+                  <i
+                    class="card__like menu__like menu__like--bg fas fa-heart fa-2x"
+                  ></i>
                 </div>
               </div>
-            </div>
-          </a>
-          <!-- End of Single restaurant card -->
-          <!-- Single restaurant card -->
-          <a href="The-Enchanted-Plate.html">
-            <div class="restaurant-card restaurant-new">
+            </a>
+            <!-- End of Single restaurant card -->
+            <!-- Single restaurant card -->
+            <a href="The-Enchanted-Plate.html" class="card">
               <img
-                class="restaurant-card-img"
+                class="card__img"
                 src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
                 alt="The-Enchanted-Plate"
               />
-              <span>New</span>
-              <div class="restaurant-card-info">
-                <div>
-                  <h3 class="restaurant-card-title">The Enchanted Plate</h3>
-                  <p class="restaurant-card-text">New York</p>
+              <span class="card__badge">New</span>
+              <div class="card__footer">
+                <div class="card__content">
+                  <h3 class="card__title">The Enchanted Plate</h3>
+                  <p class="card__subtitle">New York</p>
                 </div>
-                <div>
-                  <i class="far fa-heart fa-2x"></i>
-                  <i class="fas fa-heart fa-2x"></i>
+                <div class="menu__btn card__btn">
+                  <i
+                    class="card__like menu__like menu__like--noBg far fa-heart fa-2x"
+                  ></i>
+                  <i
+                    class="card__like menu__like menu__like--bg fas fa-heart fa-2x"
+                  ></i>
                 </div>
               </div>
-            </div>
-          </a>
-          <!-- End of Single restaurant card -->
-          <!-- Single restaurant card -->
-          <a href="Bastille.html">
-            <div class="restaurant-card">
+            </a>
+            <!-- End of Single restaurant card -->
+            <!-- Single restaurant card -->
+            <a href="Bastille.html" class="card">
               <img
-                class="restaurant-card-img"
-                src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                class="card__img"
+                src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
                 alt="Bastille"
               />
-              <div class="restaurant-card-info">
-                <div>
-                  <h3 class="restaurant-card-title">Bastille</h3>
-                  <p class="restaurant-card-text">New York</p>
+              <!-- <span class="card__badge">New</span> -->
+              <div class="card__footer">
+                <div class="card__content">
+                  <h3 class="card__title">Bastille</h3>
+                  <p class="card__subtitle">New York</p>
                 </div>
-                <div>
-                  <i class="far fa-heart fa-2x"></i>
-                  <i class="fas fa-heart fa-2x"></i>
+                <div class="menu__btn card__btn">
+                  <i
+                    class="card__like menu__like menu__like--noBg far fa-heart fa-2x"
+                  ></i>
+                  <i
+                    class="card__like menu__like menu__like--bg fas fa-heart fa-2x"
+                  ></i>
                 </div>
               </div>
-            </div>
-          </a>
-          <!-- End of Single restaurant card -->
-          <!-- Single restaurant card -->
-          <a href="Le-Gourmand.html">
-            <div class="restaurant-card">
+            </a>
+            <!-- End of Single restaurant card -->
+            <!-- Single restaurant card -->
+            <a href="Le-Gourmand.html" class="card">
               <img
-                class="restaurant-card-img"
-                src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                class="card__img"
+                src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
                 alt="Le-Gourmand"
               />
-              <div class="restaurant-card-info">
-                <div>
-                  <h3 class="restaurant-card-title">Le Gourmand</h3>
-                  <p class="restaurant-card-text">New York</p>
+              <!-- <span class="card__badge">New</span> -->
+              <div class="card__footer">
+                <div class="card__content">
+                  <h3 class="card__title">Le Gourmand</h3>
+                  <p class="card__subtitle">New York</p>
                 </div>
-                <div>
-                  <i class="far fa-heart fa-2x"></i>
-                  <i class="fas fa-heart fa-2x"></i>
+                <div class="menu__btn card__btn">
+                  <i
+                    class="card__like menu__like menu__like--noBg far fa-heart fa-2x"
+                  ></i>
+                  <i
+                    class="card__like menu__like menu__like--bg fas fa-heart fa-2x"
+                  ></i>
                 </div>
               </div>
-            </div>
-          </a>
-          <!-- End of Single restaurant card -->
+            </a>
+            <!-- End of Single restaurant card -->
+          </div>
         </div>
       </section>
       <!-- End of Restaurants section -->
