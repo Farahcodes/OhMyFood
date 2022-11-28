@@ -76,6 +76,7 @@ html {
 .header__logo {
   margin: 0;
   text-align: center;
+  display: block !important;
 }
 
 .footer {
