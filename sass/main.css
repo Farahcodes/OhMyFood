@@ -241,7 +241,7 @@ html {
   display: flex;
   position: relative;
 }
-@media (min-width: 1024) {
+@media (min-width: 1024px) {
   .functionalities__step {
     flex: 1;
     margin: 0;
