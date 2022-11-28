@@ -395,4 +395,7 @@ html {
   align-items: center;
   justify-content: center;
   mix-blend-mode: lighten;
+}
+.menu__btn:hover .menu__like--noBg {
+  opacity: 0;
 }/*# sourceMappingURL=main.css.map */

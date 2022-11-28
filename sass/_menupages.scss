@@ -50,4 +50,11 @@
     justify-content: center;
     mix-blend-mode: lighten;
   }
+  &__btn:hover {
+    .menu__like {
+      &--noBg {
+        opacity: 0;
+      }
+    }
+  }
 }
