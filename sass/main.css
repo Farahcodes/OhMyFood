@@ -71,7 +71,7 @@ html {
   padding: 16px 16px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
   position: relative;
-  z-index: 1000;
+  z-index: 1;
 }
 .header__logo {
   margin: 0;
