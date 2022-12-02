@@ -62,7 +62,7 @@ html {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1400px;
   margin: auto;
   position: relative;
 }
@@ -142,8 +142,8 @@ html {
   height: 16px;
   width: 16px;
   border-radius: 16px;
-  -webkit-animation: jump 1s;
-          animation: jump 1s;
+  -webkit-animation: jump 3s;
+          animation: jump 3s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
 }
@@ -227,7 +227,7 @@ html {
   list-style: none;
   counter-reset: compteListe;
 }
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .functionalities__steps {
     display: flex;
   }
@@ -240,12 +240,14 @@ html {
   background-color: #f6f6f6;
   display: flex;
   position: relative;
+  align-items: center;
 }
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .functionalities__step {
     flex: 1;
     margin: 0;
     margin-left: 32px;
+    align-items: center;
   }
   .functionalities__step:first-child {
     margin-left: 12px;
@@ -269,7 +271,7 @@ html {
   align-items: center;
   color: white;
   position: absolute;
-  left: -12px;
+  left: -15px;
 }
 .functionalities__icon {
   margin-right: 16px;
@@ -287,7 +289,7 @@ html {
        column-gap: 32px;
   row-gap: 32px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }

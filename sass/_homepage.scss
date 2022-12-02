@@ -17,7 +17,7 @@
     height: 16px;
     width: 16px;
     border-radius: 16px;
-    animation: jump 1s;
+    animation: jump 3s;
     animation-iteration-count: 1;
 
     &Container {
@@ -91,7 +91,7 @@
     list-style: none;
     counter-reset: compteListe;
 
-    @media (min-width: 1024px) {
+    @media (min-width: 992px) {
       display: flex;
     }
   }
@@ -104,11 +104,13 @@
     background-color: #f6f6f6;
     display: flex;
     position: relative;
+    align-items: center;
 
-    @media (min-width: 1024px) {
+    @media (min-width: 992px) {
       flex: 1;
       margin: 0;
       margin-left: 32px;
+      align-items: center;
 
       &:first-child {
         margin-left: 12px;
@@ -135,7 +137,7 @@
       align-items: center;
       color: white;
       position: absolute;
-      left: -12px;
+      left: -15px;
     }
   }
 
@@ -159,7 +161,7 @@
   column-gap: 32px;
   row-gap: 32px;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 992px) {
     grid-template-columns: repeat(2, 1fr);
   }
 }
