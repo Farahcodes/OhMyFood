@@ -87,6 +87,12 @@ html {
   flex-direction: column;
   padding: 16px;
 }
+@media (min-width: 1400px) {
+  .footer .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 .footer__logo {
   color: white;
   font-family: "Shrikhand", "cursive";
@@ -99,6 +105,14 @@ html {
   padding: 0;
   margin: 0;
 }
+@media (min-width: 1400px) {
+  .footer__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 25px;
+  }
+}
 .footer__listElt {
   margin: 8px 0;
 }
@@ -107,6 +121,11 @@ html {
 }
 .footer__listElt:last-child {
   margin-bottom: 0;
+}
+@media (min-width: 1400px) {
+  .footer__listElt {
+    margin: 0;
+  }
 }
 .footer__link {
   color: white;

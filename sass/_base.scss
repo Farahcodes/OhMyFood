@@ -66,6 +66,10 @@ $appPadding: 16px;
     display: flex;
     flex-direction: column;
     padding: $appPadding;
+    @media (min-width: 1400px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
   }
 
   &__logo {
@@ -80,6 +84,12 @@ $appPadding: 16px;
     list-style: none;
     padding: 0;
     margin: 0;
+    @media (min-width: 1400px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      gap: 25px;
+    }
   }
 
   &__listElt {
@@ -91,6 +101,9 @@ $appPadding: 16px;
 
     &:last-child {
       margin-bottom: 0;
+    }
+    @media (min-width: 1400px) {
+      margin: 0;
     }
   }
 
