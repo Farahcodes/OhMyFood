@@ -261,6 +261,10 @@ html {
   position: relative;
   align-items: center;
 }
+.functionalities__step:hover {
+  cursor: pointer;
+  background-color: rgba(146, 86, 220, 0.2470588235);
+}
 @media (min-width: 992px) {
   .functionalities__step {
     flex: 1;

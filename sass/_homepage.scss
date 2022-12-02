@@ -105,6 +105,10 @@
     display: flex;
     position: relative;
     align-items: center;
+    &:hover {
+      cursor: pointer;
+      background-color: #9256dc3f;
+    }
 
     @media (min-width: 992px) {
       flex: 1;
