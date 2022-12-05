@@ -36,6 +36,9 @@
     align-items: center;
     justify-content: space-between;
   }
+  &__title {
+    font-family: "Shrikhand", "cursive";
+  }
 
   &__btn {
     height: 32px;

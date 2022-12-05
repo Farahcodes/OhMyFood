@@ -413,6 +413,9 @@ html {
   align-items: center;
   justify-content: space-between;
 }
+.menu__title {
+  font-family: "Shrikhand", "cursive";
+}
 .menu__btn {
   height: 32px;
   width: 32px;
