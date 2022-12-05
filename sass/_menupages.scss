@@ -94,3 +94,26 @@
     }
   }
 }
+
+.submenu {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 16px;
+
+  &__title {
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 8px;
+    font-weight: normal;
+
+    &::after {
+      content: "";
+      width: 48px;
+      height: 4px;
+      background-color: $color-tertiary;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+}

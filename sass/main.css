@@ -458,4 +458,25 @@ html {
 }
 .menu__btn:hover .menu__like--noBg {
   opacity: 0;
+}
+
+.submenu {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 16px;
+}
+.submenu__title {
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 8px;
+  font-weight: normal;
+}
+.submenu__title::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  background-color: #99e2d0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }/*# sourceMappingURL=main.css.map */
