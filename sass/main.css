@@ -408,7 +408,7 @@ html {
   position: relative;
 }
 .menu__header {
-  padding: 1rem 2rem 0 1rem;
+  padding: 16px 32px 0 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
