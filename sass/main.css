@@ -498,4 +498,10 @@ html {
           animation-fill-mode: both;
   transform: scale(0);
   max-width: 100%;
+}
+.menuItem__header {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex: 1;
 }/*# sourceMappingURL=main.css.map */
