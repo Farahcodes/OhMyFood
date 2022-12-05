@@ -139,4 +139,11 @@
     overflow: hidden;
     flex: 1;
   }
+
+  &__title {
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
 }

@@ -504,4 +504,10 @@ html {
   text-overflow: ellipsis;
   overflow: hidden;
   flex: 1;
+}
+.menuItem__title {
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */
