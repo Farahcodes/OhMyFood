@@ -29,6 +29,14 @@
   background-color: #f6f6f6;
   z-index: 1;
   position: relative;
+
+  &__header {
+    padding: 1rem 2rem 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   &__btn {
     height: 32px;
     width: 32px;

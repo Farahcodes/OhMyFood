@@ -407,6 +407,12 @@ html {
   z-index: 1;
   position: relative;
 }
+.menu__header {
+  padding: 1rem 2rem 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .menu__btn {
   height: 32px;
   width: 32px;
