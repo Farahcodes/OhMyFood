@@ -146,4 +146,17 @@
     text-overflow: ellipsis;
     overflow: hidden;
   }
+  &__description {
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  &__price {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 0.5rem;
+  }
 }
