@@ -157,18 +157,18 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-left: 0.5rem;
+    padding-left: 8px;
   }
   &__confirmation {
     background-color: $color-tertiary;
-    margin: -1rem -5rem -1rem 1rem;
-    width: 4rem;
+    margin: -16px -80px -16px 16px;
+    width: 64px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition-duration: 0.5s;
   }
   &:hover &__confirmation {
-    margin-right: -1rem;
+    margin-right: -16px;
   }
 }
