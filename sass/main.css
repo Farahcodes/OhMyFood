@@ -532,4 +532,7 @@ html {
   align-items: center;
   justify-content: center;
   transition-duration: 0.5s;
+}
+.menuItem:hover .menuItem__confirmation {
+  margin-right: -1rem;
 }/*# sourceMappingURL=main.css.map */

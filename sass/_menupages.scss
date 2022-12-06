@@ -168,4 +168,7 @@
     justify-content: center;
     transition-duration: 0.5s;
   }
+  &:hover &__confirmation {
+    margin-right: -1rem;
+  }
 }
