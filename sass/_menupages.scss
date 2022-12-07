@@ -191,3 +191,9 @@
     animation-delay: #{$i/10}s;
   }
 }
+.wrapBtn {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  padding: 3rem 0;
+}

@@ -593,4 +593,11 @@ html {
 .delay-8 {
   -webkit-animation-delay: 0.8s;
           animation-delay: 0.8s;
+}
+
+.wrapBtn {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  padding: 3rem 0;
 }/*# sourceMappingURL=main.css.map */
