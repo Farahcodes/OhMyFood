@@ -546,4 +546,7 @@ html {
   border-radius: 100px;
   transform: rotate(180deg);
   transition-duration: 0.5s;
+}
+.menuItem:hover .menuItem__wrapIcon {
+  transform: rotate(0);
 }/*# sourceMappingURL=main.css.map */
