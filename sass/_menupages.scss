@@ -185,3 +185,9 @@
     color: $color-tertiary;
   }
 }
+
+@for $i from 0 to 9 {
+  .delay-#{$i} {
+    animation-delay: #{$i/10}s;
+  }
+}
