@@ -600,4 +600,27 @@ html {
   text-decoration: none;
   justify-content: center;
   padding: 3rem 0;
+}
+
+.commandBtn {
+  border: 0;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 100px;
+  color: white;
+  background-color: rgb(104, 104, 104);
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9) 0%, rgba(255, 121, 218, 0.9) 100%);
+  cursor: pointer;
+  transition-duration: 0.25s;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.commandBtn:hover {
+  background-color: white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.commandBtn a {
+  text-decoration: none;
+  color: inherit;
 }/*# sourceMappingURL=main.css.map */
