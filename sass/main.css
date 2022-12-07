@@ -545,4 +545,7 @@ html {
   justify-content: center;
   border-radius: 100px;
   transition-duration: 0.5s;
+}
+.menuItem__icon {
+  color: #99e2d0;
 }/*# sourceMappingURL=main.css.map */

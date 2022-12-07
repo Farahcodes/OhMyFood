@@ -181,4 +181,7 @@
     border-radius: 100px;
     transition-duration: 0.5s;
   }
+  &__icon {
+    color: $color-tertiary;
+  }
 }
