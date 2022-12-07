@@ -460,6 +460,17 @@ html {
   opacity: 0;
 }
 
+.submenus {
+  display: grid;
+}
+@media (min-width: 1400px) {
+  .submenus {
+    grid-template-columns: repeat(3, 1fr);
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+  }
+}
+
 .submenu {
   max-width: 100%;
   overflow: hidden;
