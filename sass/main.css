@@ -231,6 +231,7 @@ html {
 .hero__subtitle {
   font-weight: 300;
   margin: 24px 0;
+  margin-bottom: 40px;
 }
 .hero__btn {
   border: 0;
