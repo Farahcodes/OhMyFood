@@ -244,6 +244,7 @@ html {
   cursor: pointer;
   transition-duration: 0.25s;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
 }
 .hero__btn:hover {
   background-color: white;

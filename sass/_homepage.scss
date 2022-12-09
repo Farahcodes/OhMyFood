@@ -75,6 +75,7 @@
 
   &__btn {
     @include button(primary);
+    text-decoration: none;
   }
 }
 
