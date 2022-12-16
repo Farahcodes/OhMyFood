@@ -98,7 +98,7 @@
 .submenus {
   display: grid;
 
-  @media (min-width: 1400px) {
+  @media (min-width: 992px) {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 16px;
   }

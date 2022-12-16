@@ -93,7 +93,7 @@
     list-style: none;
     counter-reset: compteListe;
 
-    @media (min-width: 992px) {
+    @media (min-width: 768px) {
       display: flex;
     }
   }
@@ -112,7 +112,7 @@
       background-color: #9256dc3f;
     }
 
-    @media (min-width: 992px) {
+    @media (min-width: 768px) {
       flex: 1;
       margin: 0;
       margin-left: 32px;
@@ -168,7 +168,7 @@
   column-gap: 32px;
   row-gap: 32px;
 
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
 }
