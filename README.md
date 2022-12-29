@@ -10,4 +10,4 @@ Complete [project brief](https://s3-eu-west-1.amazonaws.com/course.oc-static.com
 
 ## Link to webpage
 
-[https://farahcodes.github.io/Front-End-P4-OC/](https://farahcodes.github.io/Front-End-P4-OC/)
+[https://farahcodes.github.io/OhMyFood/](https://farahcodes.github.io/OhMyFood/)
